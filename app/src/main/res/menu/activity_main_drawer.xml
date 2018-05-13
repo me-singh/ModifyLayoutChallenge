@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_lists"
+            android:icon="@drawable/ic_speaker_notes_black_24dp"
+            android:title="Lists" />
+        <item
+            android:id="@+id/nav_bookmarks"
+            android:icon="@drawable/ic_bookmark_border_black_24dp"
+            android:title="Bookmarks" />
+        <item
+            android:id="@+id/nav_moments"
+            android:icon="@drawable/ic_flash_on_black_24dp"
+            android:title="Moments" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings_and_privacy"
+            android:title="Settings and Privacy" />
+        <item
+            android:id="@+id/nav_help_center"
+            android:title="Help Center" />
+    </group>
+
+</menu>
